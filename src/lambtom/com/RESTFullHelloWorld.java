@@ -26,7 +26,7 @@ public class RESTFullHelloWorld {
 		JSONObject obj = new JSONObject(input);
 		String value = obj.getString("key");
 		if(value.equals("EXOCLOUD")) {
-			return "{\"value\":\"1234567\"}";
+			return "{\"value\":\"12345678\"}";
 		}
 		else {
 			return "{\"value\":\"\"}";
